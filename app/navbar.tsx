@@ -1,17 +1,17 @@
-import Link from "next/link";
+import Link from "next/link"
 
 export default function NavBar() {
   return (
-    <div className="flex flex-row justify-start p-24 bg-blue-600 text-2xl text-white">
+    <div className="flex flex-row justify-start bg-blue-600 p-4 text-2xl text-white sm:text-sm">
       <Link href="/" className="px-8">
         Home
-      </Link>{" "}
+      </Link>
       |
       <Link href="/blog" className="px-8">
         Blog
-      </Link>{" "}
+      </Link>
       |
-      <Link href="/blog/abc" className="px-8">
+      <Link href="/blog/abc" className="btn">
         ParamsBlog
       </Link>
       |
@@ -23,5 +23,5 @@ export default function NavBar() {
         Finance
       </Link>
     </div>
-  );
+  )
 }
