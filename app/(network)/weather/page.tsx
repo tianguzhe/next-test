@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image"
 
 export default function WeatherPage() {
   return (
@@ -13,13 +13,13 @@ export default function WeatherPage() {
             width={192}
           />
         </div>
-        <div className="p-8">
+        <div className="bg-white p-8 shadow-md dark:bg-black">
           <div className="text-sm font-semibold uppercase tracking-wide text-indigo-500">
             Case study
           </div>
           <a
             href="#"
-            className="mt-1 block text-lg font-medium leading-tight text-black hover:underline"
+            className="mt-1 block text-lg font-medium leading-tight text-black hover:underline dark:text-white"
           >
             Finding customers for your new business
           </a>

@@ -1,13 +1,14 @@
 type PageProps = {
   params: {
-    slug: string;
-  };
-};
+    slug: string
+  }
+}
 
 export default function BlogSlugPage({ params: { slug } }: PageProps) {
   return (
     <div>
-      Blog slug <span className="text-red-500 text-2xl">{slug}</span> Page
+      <span className="text-black dark:text-white">Blog slug</span>
+      <span className="text-2xl text-red-500">{slug}</span> Page
     </div>
-  );
+  )
 }

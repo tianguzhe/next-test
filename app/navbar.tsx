@@ -1,8 +1,9 @@
 import Link from "next/link"
+import ThemeButton from "./theme"
 
 export default function NavBar() {
   return (
-    <div className="flex flex-row justify-start bg-blue-600 p-4 text-2xl text-white sm:text-sm">
+    <nav className="flex flex-row justify-start bg-blue-600 p-4 text-2xl text-white sm:text-sm">
       <Link href="/" className="px-8">
         Home
       </Link>
@@ -22,6 +23,7 @@ export default function NavBar() {
       <Link href="/finance" className="px-8">
         Finance
       </Link>
-    </div>
+      <ThemeButton />
+    </nav>
   )
 }
