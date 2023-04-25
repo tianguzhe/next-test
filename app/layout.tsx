@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="mx-auto max-w-xl bg-white dark:bg-black">
+      <body className="mx-auto max-w-xl overflow-y-scroll bg-white dark:bg-black">
         <Providers>
           <NavBar />
           {children}

@@ -15,7 +15,7 @@ export default function ThemeButton() {
 
   return (
     <button
-      className="p-8 text-xl text-red-500 dark:text-white"
+      className="ml-5 rounded-[100px] border-2 border-red-500 px-4 py-2 text-xl text-red-500 hover:shadow-sm dark:border-white dark:text-white"
       onClick={changeTheme}
     >
       Theme

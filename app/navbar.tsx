@@ -3,7 +3,7 @@ import ThemeButton from "./theme"
 
 export default function NavBar() {
   return (
-    <nav className="flex flex-row justify-start bg-blue-600 p-4 text-2xl text-white sm:text-sm">
+    <nav className="flex flex-row justify-start rounded-lg bg-blue-600 p-4 text-2xl text-white sm:text-sm">
       <Link href="/" className="px-8">
         Home
       </Link>

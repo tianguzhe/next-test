@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 隐藏滚动条
+::-webkit-scrollbar {
+  display: none;
+} */
+
 @layer components {
   .btn {
     @apply rounded-lg bg-green-500 px-4 py-2 font-semibold text-white shadow-md hover:bg-green-700;
